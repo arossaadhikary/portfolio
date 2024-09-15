@@ -1,0 +1,44 @@
+.project_container {
+    position: relative;
+    border-radius: 15px;
+    margin-top: 129px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.project_list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.project_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+}
+
+.project_img {
+    width: 35%;
+    border-radius: 10px;
+}
+
+.project_details {
+    flex: 1;
+}
+
+.project_skills {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.project_skills button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}

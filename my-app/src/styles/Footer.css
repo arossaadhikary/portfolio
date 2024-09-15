@@ -1,0 +1,39 @@
+.footer_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.footer_icons_container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer_icon_link {
+    display: inline-block;
+}
+
+.footer_icon {
+    width: 3%;
+    height: auto;
+    transition: opacity 0.3s ease;
+    opacity: 0.7;
+}
+
+.footer_icon:hover {
+    opacity: 0.7;
+}
+
+.footer_container p {
+    color: #d3d3d3;
+}
+
+.footer_update {
+    margin-top: -10px;
+    font-size: 12px;
+}
