@@ -1,7 +1,7 @@
 import '../styles/About.css'
 import React from 'react'
 
-import headshot from '../assets/ArossaAdhikary_Headshot.jpg';
+import headshot from '../assets/secondHeadshot.png';
 
 function About() {
   return (

@@ -1,7 +1,8 @@
 import '../styles/Intro.css';
 import React from 'react'
 
-import headshot from '../assets/ArossaAdhikary_Headshot.jpg';
+import headshot from '../assets/ArossaAdhikary_Headshot_Website.png';
+
 
 function Intro() {
   return (
