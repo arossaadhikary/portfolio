@@ -29,9 +29,9 @@ function NavigationBar() {
             </div>  
             {/* icons */}
             <div className="navbar_icon_container">
-                <img src={linkedinIcon} className="navbar_icons" alt="LinkedIn" />
-                <img src={githubIcon} className="navbar_icons" alt="GitHub" />
-                <img src={mailIcon} className="navbar_icons" alt="Email" />
+                <a href="https://www.linkedin.com/in/arossaadhikary/" target="_blank"><img src={linkedinIcon} className="navbar_icons" alt="LinkedIn" /></a>
+                <a href="https://github.com/arossaadhikary" target="_blank"><img src={githubIcon} className="navbar_icons" alt="GitHub" /></a>
+                <a href="mailto:arossa.adhikary@gmail.com"><img src={mailIcon} className="navbar_icons" alt="Email" /></a>
             </div>
         </nav>
     )

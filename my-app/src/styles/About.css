@@ -1,7 +1,15 @@
+.category {
+  font-size: 40px;
+}
+
+.highlight {
+  font-weight: 600;
+  color: rgb(168, 209, 253);
+}
+
 .about_container {
     position: relative;
     border-radius: 15px;
-    margin-top: 129px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;

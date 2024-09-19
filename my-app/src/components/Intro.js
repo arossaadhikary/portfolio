@@ -14,8 +14,10 @@ function Intro() {
                 I enjoy creating web/IOS applications & am looking to expand into the cybersecurity sphere. 
                 I have experience with Javascript/React, C++,  Python.
             </p>
-            <button><a href = "">Hire Me</a></button>
-            <button><a href = "">Download Resume</a></button>
+            <div className = "intro_options">
+              <button className = "hireMe"><a href = "#contact">Hire Me</a></button>
+              <button><a href = "">Download Resume</a></button>
+            </div>     
         </div>
         <img src = {headshot} className = "hero_img"></img>
     </section>

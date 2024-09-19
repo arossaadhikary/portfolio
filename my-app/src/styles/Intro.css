@@ -1,101 +1,138 @@
 .hero_container {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 49px;
-    z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.intro_options {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between; 
+}
+
+.intro_options button {
+  flex-grow: .5; 
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
+  padding: 12px 24px;
+  border-radius: 30px; 
+  border: 2px solid #ffffff;
+  font-size: 18px;
+  color: #0d1b2a; 
+  cursor: pointer; 
+  margin-right: 15px;
+}
+
+.intro_options a {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.intro_options button:hover {
+  text-decoration: none; 
+  transform: translateY(-5px); 
+  box-shadow: 0px 8px 10px rgba(0, 0, 0, 0.2); 
+}
+
+.hireMe {
+  background-color: #f0f0f0; 
+}
+
+.hireMe a{
+  background-color: #f0f0f0; 
+  color: black;
   
-  .hero_content {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    color: var(--color-text);
-    z-index: 1;
-  }
+}
+
+.hero_content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: var(--color-text);
+  z-index: 1;
+}
+
+.hero_title {
+  font-size: 60px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
+
+.hero_description {
+  font-size: 30px;
+  margin-bottom: 52px;
+}
+
+.hero_contactBtn {
+  text-decoration: none;
+  background-color: var(--color-primary);
+  color: var(--color-text);
+  border-radius: 100px;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 17px 26px;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+}
   
-  .hero_title {
-    font-size: 60px;
-    font-weight: 900;
-    margin-bottom: 33px;
+.hero_img {
+  width: 40%;
+  z-index: 1;
+  border-radius: 100%;
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
   }
-  
-  .hero_description {
-    font-size: 30px;
-    margin-bottom: 52px;
+  50% {
+    transform: translate(0, 10px);
   }
-  
-  .hero_contactBtn {
-    text-decoration: none;
-    background-color: var(--color-primary);
-    color: var(--color-text);
-    border-radius: 100px;
-    font-size: 30px;
-    font-weight: 600;
-    padding: 17px 26px;
-    box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
+  100% {
+    transform: translate(0, -0px);
   }
+}
   
-  .hero_img {
-    width: 40%;
-    z-index: 1;
-    border-radius: 100%;
-    animation-name: floating;
-    animation-duration: 3s;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in-out;
+.hero_topBlur {
+  position: absolute;
+  width: 50vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 350px;
+  top: -128px;
+  left: -10vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+  
+.hero_bottomBlur {
+  position: absolute;
+  width: 70vw;
+  height: 50vw;
+  min-width: 350px;
+  min-width: 250px;
+  top: 246px;
+  right: -25vw;
+  border-radius: 764px;
+  background: rgba(25, 55, 109, 0.7);
+  filter: blur(100px);
+  z-index: 0;
+}
+  
+@media screen and (max-width: 830px) {
+  .hero_container {
+    flex-direction: column-reverse;
   }
 
-  @keyframes floating {
-    0% {
-      transform: translate(0, 0px);
-    }
-    50% {
-      transform: translate(0, 10px);
-    }
-    100% {
-      transform: translate(0, -0px);
-    }
+  .hero_content {
+    align-items: center;
   }
-  
-  .hero_topBlur {
-    position: absolute;
-    width: 50vw;
-    height: 50vw;
-    min-width: 350px;
-    min-width: 350px;
-    top: -128px;
-    left: -10vw;
-    border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
-    filter: blur(100px);
-    z-index: 0;
-  }
-  
-  .hero_bottomBlur {
-    position: absolute;
-    width: 70vw;
-    height: 50vw;
-    min-width: 350px;
-    min-width: 250px;
-    top: 246px;
-    right: -25vw;
-    border-radius: 764px;
-    background: rgba(25, 55, 109, 0.7);
-    filter: blur(100px);
-    z-index: 0;
-  }
-  
-  @media screen and (max-width: 830px) {
-    .hero_container {
-      flex-direction: column-reverse;
-    }
-  
-    .hero_content {
-      align-items: center;
-    }
-  }
-  
+}

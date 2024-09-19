@@ -1,7 +1,6 @@
 .project_container {
     position: relative;
     border-radius: 15px;
-    margin-top: 129px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
@@ -29,16 +28,22 @@
     flex: 1;
 }
 
+.project_details p{
+    font-size: 15px;
+}
+
+
 .project_skills {
     display: flex;
     gap: 10px;
     margin-top: 10px;
+    
 }
 
 .project_skills button {
     padding: 5px 10px;
     border: none;
-    border-radius: 5px;
-    background-color: #f0f0f0;
     cursor: pointer;
+    border: 2px solid #ffffff;
+    border-radius: 20px;
 }
