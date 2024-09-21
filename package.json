@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@emailjs/browser": "^4.4.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
