@@ -10,7 +10,7 @@ function NavigationBar() {
     const [menuOpen, setMenuOpen] = useState(false)
     return (
         <nav className='navbar'>
-            <a href="/" className="navbar_title">@arossaadhikary</a>
+            <a href="#intro" className="navbar_title">@arossaadhikary</a>
             {/* navigation menu */}
             <div className="navbar_menu">
                 <img 

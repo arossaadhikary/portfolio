@@ -6,7 +6,7 @@ import headshot from '../assets/ArossaAdhikary_Headshot_Website.png';
 
 function Intro() {
   return (
-    <section className = "intro_container">
+    <section className = "intro_container" id ="intro">
         <div className = "intro_content">
             <h1 className = "intro_title">Hello - I'm Arossa 👋</h1>
             <p className = "intro_description">
