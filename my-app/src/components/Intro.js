@@ -6,9 +6,9 @@ import headshot from '../assets/ArossaAdhikary_Headshot_Website.png';
 
 function Intro() {
   return (
-    <section className = "hero_container">
+    <section className = "intro_container">
         <div className = "hero_content">
-            <h1 className = "hero_title">Hello - I'm Arossa 👋</h1>
+            <h1 className = "intro_title">Hello - I'm Arossa 👋</h1>
             <p className = "hero_description">
                 I'm a passionate developer from Tampa, FL. 
                 I enjoy creating web/IOS applications & am looking to expand into the cybersecurity sphere. 
@@ -19,7 +19,7 @@ function Intro() {
               <button><a href = "">Download Resume</a></button>
             </div>     
         </div>
-        <img src = {headshot} className = "hero_img"></img>
+        <img src = {headshot} className = "intro_img"></img>
     </section>
   )
 }

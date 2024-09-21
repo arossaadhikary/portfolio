@@ -1,3 +1,4 @@
+/* For screens larger than mobile */
 .project_container {
     position: relative;
     border-radius: 15px;
@@ -24,6 +25,10 @@
     border-radius: 10px;
 }
 
+.project_icons {
+    margin-left: -10px;
+}
+
 .project_details {
     flex: 1;
 }
@@ -32,12 +37,10 @@
     font-size: 15px;
 }
 
-
 .project_skills {
     display: flex;
     gap: 10px;
     margin-top: 10px;
-    
 }
 
 .project_skills button {
@@ -46,4 +49,30 @@
     cursor: pointer;
     border: 2px solid #ffffff;
     border-radius: 20px;
+}
+
+/* Mobile optimization */
+@media (max-width: 768px) {
+  .project_item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project_img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .project_details {
+    text-align: left;
+  }
+
+  .project_skills {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .project_skills button {
+    margin-bottom: 5px;
+  }
 }

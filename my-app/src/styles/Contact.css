@@ -1,0 +1,109 @@
+.contact_container {
+    position: relative;
+    border-radius: 15px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact_container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+}
+
+/* speel above chat */
+
+.contact_container_items {
+    padding-left: 25%;
+    margin-top: -30px;
+}
+
+.contact_container_items p:first-child{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.contact_container_items p:nth-child(2){
+    font-size: 20px;
+    margin-top: -20px;
+}
+
+.contact_us_container_icons {
+    margin-left: -8px;
+}
+
+.chat {
+    font-style: italic;
+    color: rgb(168, 209, 253);
+}
+
+/* chat */
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    background-color: #f0f0f0;
+}
+
+label {
+    padding-bottom: 10px;
+    background-color: #f0f0f0;
+    color: black;
+    font-weight: 500;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+textarea {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.contact_submit {
+    margin-top: 20px;
+    background-color: #898989;
+    color: black;
+}
+
+.message-sent {
+    background-color: #f0f0f0;
+    color: black;
+}
+
+@media (max-width: 768px) {
+    .contact_container_items {
+        padding-left: 0%;
+        margin-top: -50px;
+    }
+
+    .contact_container_items p:first-child{
+        margin-left: 10px;
+    }
+    
+    .contact_container_items p:nth-child(2){
+        margin-left: 10px;
+    }    
+
+    .contact_us_container_icons {
+        margin-left: 0;
+    }    
+
+    form {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin-top: 20px;
+        border-radius: 10px;
+        padding: 20px 20px;
+        background-color: #f0f0f0;
+    }
+}

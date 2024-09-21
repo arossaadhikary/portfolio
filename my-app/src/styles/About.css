@@ -8,83 +8,96 @@
 }
 
 .about_container {
-    position: relative;
-    border-radius: 15px;
-    z-index: 1;
-    margin-left: 10%;
-    margin-right: 10%;
-  }
+  position: relative;
+  border-radius: 15px;
+  z-index: 1;
+  margin-left: 10%;
+  margin-right: 10%;
+}
   
-  .about_title {
-    color: var(--color-text);
-    font-size: 35px;
-    font-weight: 700;
-    letter-spacing: 1.75px;
-    text-transform: uppercase;
-  }
+.about_title {
+  color: var(--color-text);
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+}
   
+.about_content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.about_img {
+  margin: 5px;
+  width: 30%;
+  border-radius: 100%;
+}
+  
+.about_items {
+  color: var(--color-text);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.about_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border-radius: 20px;
+  list-style: none;
+  padding: 25px; 
+  background-size: 0 100%;
+  background-repeat: no-repeat;
+  transition: 0.4s;
+}
+  
+.about_item:hover {
+  background-size: 100% 100%;
+}
+
+.about_item h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.about_item p {
+  font-size: 20px;
+}
+  
+@media screen and (max-width: 830px) {
+  .about_container {
+    background-color: transparent;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
   .about_content {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-direction: column;
   }
-  
+
+  .about_item h3 {
+    font-size: 25px;
+    /* background-color: red; */
+  }
+
+  .about_item p {
+    font-size: 18px;
+  }
+
   .about_img {
-    margin: 5px;
-    width: 30%;
-    border-radius: 100%;
+    width: 100%;
+    margin-top: -30px;
   }
   
   .about_items {
-    color: var(--color-text);
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
+    margin-top: -90px;
   }
-  
+
   .about_item {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    border-radius: 20px;
-    list-style: none;
-    padding: 25px; 
-    background-size: 0 100%;
-    background-repeat: no-repeat;
-    transition: 0.4s;
+    padding-left: 0;
+    padding-right: 0;
   }
-  
-  .about_item:hover {
-    background-size: 100% 100%;
-  }
-  
-  .about_item h3 {
-    font-size: 30px;
-    font-weight: 600;
-  }
-  
-  .about_item p {
-    font-size: 20px;
-  }
-  
-  @media screen and (max-width: 830px) {
-    .about_container {
-      background-color: transparent;
-      padding-left: 0;
-      padding-right: 0;
-    }
-    .about_content {
-      flex-direction: column;
-    }
-    .about_img {
-      display: none;
-    }
-    .about_items {
-      margin-top: 29px;
-    }
-    .about_item {
-      padding-left: 0;
-      padding-right: 0;
-    }
-  }
-  
+}

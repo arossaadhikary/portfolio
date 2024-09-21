@@ -6,6 +6,8 @@
   padding-top: 20px;
   z-index: 2;
   margin: 0 10%;
+  position: sticky;
+  top: 0;
 }
 
 .navbar_title {
@@ -34,15 +36,14 @@
   text-decoration: none;
 }
 .navbar_icons {
-  width: 24px; /* Changed from percentage to fixed width */
-  margin-left: 10px; /* Added margin to bring icons closer */
+  width: 24px; 
+  margin-left: 10px; 
 }
 
-/* Added a container for icons */
 .navbar_icon_container {
   display: flex;
   align-items: center;
-  gap: 10px; /* Adjust this value to control space between icons */
+  gap: 10px; 
 }
 
 @media screen and (max-width: 830px) {

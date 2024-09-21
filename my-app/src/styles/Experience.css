@@ -92,3 +92,40 @@
     font-weight: 600;
     background-color: #f0f2f5;
 }
+
+@media (max-width: 768px) {
+    .experience_options {
+      flex-direction: column; 
+      align-items: center; 
+    }
+  
+    .experience_options button {
+      width: 100%; 
+      margin: 10px 0; 
+    }
+  
+    .experience_list {
+      flex-direction: column; 
+      gap: 20px; 
+    }
+  
+    .experience_item {
+      width: 90%; 
+      padding: 15px;
+    }
+  }
+  
+
+  @media (max-width: 480px) {
+    .experience_item h2 {
+      font-size: 18px; 
+    }
+  
+    .experience_item h3 {
+      font-size: 16px; 
+    }
+  
+    .experience_item p, .experience_item ul {
+      font-size: 14px; 
+    }
+  }
