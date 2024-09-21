@@ -10,6 +10,7 @@ import AnimalCarePreview from '../assets/Previews/AnimalCarePreview.png';
 import PageTurnersPreview from '../assets/Previews/PageTurnersPreview.png';
 import EWBPreview from '../assets/Previews/EWBPreview.png';
 import EarthquakePreview from '../assets/Previews/EarthquakePreview.png';
+import YoutubePreview from '../assets/Previews/Youtube.png';
 
 function Projects() {
   return (
@@ -33,6 +34,7 @@ function Projects() {
               <div className="project_skills">
                 <button>React</button>
                 <button>Firebase</button>
+                <button>Figma</button>
               </div>
             </div>
           </div>
@@ -106,6 +108,28 @@ function Projects() {
                 <button>C#</button>
                 <button>Open AI</button>
                 <button>GPT 3.5</button>
+              </div>
+            </div>
+          </div>
+
+          <div className="project_item">
+            <img src={YoutubePreview} className="project_img" alt="Animal Care" />
+            <div className="project_details">
+              <h2>YouTube Channel</h2>
+              <div className="project_icons">
+                <a href="https://www.youtube.com/@arossa" target="_blank"><img src = {outputIcon} className = "navbar_icons"></img></a>
+              </div>
+              <p>
+                110,000+ Views | 281 Subscribers 
+                Topics: Coding, History of Women in STEM, Public Speaking, Data Analysis, Presentational Skills, Lifestyle 
+              </p>
+              <div className="project_skills">
+                <button>Adobe Photoshop</button>
+                <button>Adobe Premier Pro</button>
+                <button>Adobe After Effects</button>
+                <button>Procreate</button>
+                <button>iMovie</button>
+                <button>Canva</button>
               </div>
             </div>
           </div>

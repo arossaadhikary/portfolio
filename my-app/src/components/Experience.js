@@ -11,8 +11,17 @@ function Experience() {
         company: "UF Department of Occupational Therapy",
         period: "Aug 2024 - Present",
         details: [
-          "Developed evidence-based clinical practice guidelines for assistive mobility devices (AMD) through comprehensive abstract screenings, full-text reviews, & literature analysis.",
+          "Integrating data from Qualisys & Visual3D to develop Python script to automate biomechanical calculations for gait analysis with pandas/numpy/scripy improving data accuracy processing speed.",
           "Conducted biomechanics data analysis using Visual3D & Theia, leveraging AI-based markerless motion capture to evaluate walker-assisted movement."
+        ]
+      },
+      {
+        title: "Google Cybersecurity Certification Program",
+        company: "Women in Cybersecurity",
+        period: "Jun 2024 - Present",
+        details: [
+          "Developing ability to understand common risks/threats/vulnerabilities alongside mitigation methodologies.",
+          "Learning to protect networks/devices/people/data from unauthorized access & cyberattacks via security information & event management tools & Python/Linux/SQL lab."
         ]
       },
       {
@@ -30,7 +39,7 @@ function Experience() {
         period: "Dec 2023 - Apr 2024",
         details: [
           "Selected as sole 1st year committee member to design website for the UF's 1st women & nonbinary focused hackathon.",
-          "Promoted interactivity with React by optimizing FAQ, sponsorship, & workshop schedule page"
+          "Promoted interactivity with React by optimizing FAQ, sponsorship, & workshop schedule page."
         ]
       },
     ],
@@ -103,7 +112,7 @@ function Experience() {
         <p>{exp.period}</p>
         <ul>
           {exp.details.map((detail, detailIndex) => (
-            <li key={detailIndex} dangerouslySetInnerHTML={{__html: detail.replace(/Visual3D|Theia|Microbits|Python|HTML|CSS|JS|React|Figma|Git|Firebase|/g, '<span class="technical_skill">$&</span>')}} />
+            <li key={detailIndex} dangerouslySetInnerHTML={{__html: detail.replace(/Visual3D|Qualisys|Theia|Linux|SQL|Microbits|Python|HTML|CSS|JS|React|Figma|Git|Firebase|/g, '<span class="technical_skill">$&</span>')}} />
           ))}
         </ul>
       </div>

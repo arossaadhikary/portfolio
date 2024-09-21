@@ -39,9 +39,9 @@
 }
 
 .experience_list {
-    display: flex;
-    flex-direction: row;
-    gap: 2%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(30%, 1fr)); /* 3 columns on larger screens */
+  gap: 4%;
 }
 
 .experience_item {
@@ -105,8 +105,7 @@
     }
   
     .experience_list {
-      flex-direction: column; 
-      gap: 20px; 
+      grid-template-columns: repeat(auto-fill, minmax(45%, 1fr)); /* 2 columns on medium screens */
     }
   
     .experience_item {
@@ -117,6 +116,10 @@
   
 
   @media (max-width: 480px) {
+    .experience_list {
+      grid-template-columns: repeat(auto-fill, minmax(90%, 1fr)); /* 1 column on smaller screens */
+    }
+
     .experience_item h2 {
       font-size: 18px; 
     }

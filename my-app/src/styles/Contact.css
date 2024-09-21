@@ -4,6 +4,7 @@
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    margin-top: 30px;
 }
 
 .contact_container {
@@ -80,6 +81,10 @@ textarea {
 }
 
 @media (max-width: 768px) {
+    .contact_container {
+        margin-top: 170px;
+    }
+
     .contact_container_items {
         padding-left: 0%;
         margin-top: -50px;
