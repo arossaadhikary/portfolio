@@ -47,7 +47,7 @@
   
 }
 
-.hero_content {
+.intro_content {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -61,7 +61,7 @@
   margin-bottom: 25px;
 }
 
-.hero_description {
+.intro_description {
   font-size: 30px;
   margin-bottom: 52px;
 }
@@ -141,13 +141,19 @@
     animation-timing-function: ease-in-out;
   }
 
-  .hero_content {
-    align-items: center;
-  }
-
   .intro_title {
     font-size: 50px;
     margin-top: -17px;
     z-index: 1;
+  }
+
+  .intro_description {
+    font-size: 25px;
+    margin-top: 0;
+  }
+
+  .intro_options button {
+    font-size: 20px;
+    margin-top: -15px;
   }
 }
