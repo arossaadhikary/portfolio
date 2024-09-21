@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d5f328cb.css",
-    "main.js": "/portfolio/static/js/main.dcdd7c2b.js",
+    "main.css": "/portfolio/static/css/main.e7021a52.css",
+    "main.js": "/portfolio/static/js/main.2b8611bf.js",
     "static/js/453.3b20ddf1.chunk.js": "/portfolio/static/js/453.3b20ddf1.chunk.js",
     "static/media/EWBPreview.png": "/portfolio/static/media/EWBPreview.b5324f77bf7188675dc1.png",
     "static/media/ArossaAdhikary_Headshot_Website.png": "/portfolio/static/media/ArossaAdhikary_Headshot_Website.8f4a7af51a6bb3924f24.png",
     "static/media/secondHeadshot.png": "/portfolio/static/media/secondHeadshot.ead32d793029be4cd147.png",
+    "static/media/Youtube.png": "/portfolio/static/media/Youtube.f3b8b189650c623c4915.png",
     "static/media/AnimalCarePreview.png": "/portfolio/static/media/AnimalCarePreview.c2fbf422f5605aeecc39.png",
     "static/media/WiNGHacksPreview.png": "/portfolio/static/media/WiNGHacksPreview.5b6084ac8fffc2146d1f.png",
     "static/media/PageTurnersPreview.png": "/portfolio/static/media/PageTurnersPreview.aceb2820f99f854b623a.png",
     "static/media/preview.png": "/portfolio/static/media/preview.f3e1acc12eafc996dd83.png",
     "static/media/EarthquakePreview.png": "/portfolio/static/media/EarthquakePreview.e743847426abefe79b02.png",
     "index.html": "/portfolio/index.html",
-    "main.d5f328cb.css.map": "/portfolio/static/css/main.d5f328cb.css.map",
-    "main.dcdd7c2b.js.map": "/portfolio/static/js/main.dcdd7c2b.js.map",
+    "main.e7021a52.css.map": "/portfolio/static/css/main.e7021a52.css.map",
+    "main.2b8611bf.js.map": "/portfolio/static/js/main.2b8611bf.js.map",
     "453.3b20ddf1.chunk.js.map": "/portfolio/static/js/453.3b20ddf1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5f328cb.css",
-    "static/js/main.dcdd7c2b.js"
+    "static/css/main.e7021a52.css",
+    "static/js/main.2b8611bf.js"
   ]
 }
