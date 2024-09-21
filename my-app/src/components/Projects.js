@@ -96,7 +96,7 @@ function Projects() {
               <h2>Animal Care</h2>
               <div className="project_icons">
                 <a href ="https://github.com/hugoliu-code/DesignathonWinners"><img src = {githubIcon} className = "navbar_icons"></img></a>
-                <a href="https://www.youtube.com/watch?v=Vmt5MRfRNKI"><img src = {outputIcon} className = "navbar_icons"></img></a>
+                <a href="https://www.youtube.com/watch?v=Vmt5MRfRNKI" target="_blank"><img src = {outputIcon} className = "navbar_icons"></img></a>
               </div>
              <p>
                 AnimalCare is an RPG-style video game designed to help children overcome anxiety about medical procedures. Set in a virtual waiting room, the game uses AI-powered chatbots to guide children through medical scenarios like MRI scans and cast removals in a comforting and educational way. Developed within 24 hours, AnimalCare earned 2nd place at the October 2023 Designathon for its innovative approach to easing pediatric fears.
