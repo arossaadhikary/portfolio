@@ -25,8 +25,8 @@ function Projects() {
             <div className="project_details">
               <h2>Engineering Without Borders Website</h2>
               <div className = "project_icons">
-                <a href = "https://github.com/ufewb/UF_EWB"><img src = {githubIcon} className = "navbar_icons"></img></a>
-                <a href = "https://ufewb.com"><img src = {outputIcon} className = "navbar_icons"></img></a>
+                <a href = "https://github.com/ufewb/UF_EWB" target="_blank"><img src = {githubIcon} className = "navbar_icons"></img></a>
+                <a href = "https://ufewb.com" target="_blank"><img src = {outputIcon} className = "navbar_icons"></img></a>
               </div>
               <p>
                 Leading a team, the website was developed using responsive design principles and React, based on custom Figma wireframes, with Firebase user authentication and real-time notifications to inform applicants of their status. It supports the University of Florida’s Engineers Without Borders chapter, which empowers communities in Nepal and Peru through engineering projects that address basic human needs.
@@ -44,8 +44,8 @@ function Projects() {
             <div className="project_details">
               <h2>PageTurners</h2>
               <div className = "project_icons">
-                <a href ="https://github.com/marin-isabella/PageTurners"><img src = {githubIcon} className = "navbar_icons"></img></a>
-                <a href = "https://www.youtube.com/watch?v=ARF130incFA&t=46s"><img src = {outputIcon} className = "navbar_icons"></img></a>
+                <a href ="https://github.com/marin-isabella/PageTurners" target="_blank"><img src = {githubIcon} className = "navbar_icons"></img></a>
+                <a href = "https://www.youtube.com/watch?v=ARF130incFA&t=46s" target="_blank"><img src = {outputIcon} className = "navbar_icons"></img></a>
               </div>
               <p>
                 PageTurners is your go-to app for finding personalized book recommendations. It analyzes book descriptions to suggest the most relevant titles, ensures accurate book identification through a custom-built Flask API, & delivers fast recommendations by optimizing performance.
@@ -64,8 +64,8 @@ function Projects() {
             <div className="project_details">
               <h2>WiNGHacks</h2>
               <div className = "project_icons">
-                <a href="https://github.com/WiNGHacks/WiNGHacks-Website"><img src = {githubIcon} className = "navbar_icons"></img></a>
-                <a href="https://www.winghacks.com/"><img src = {outputIcon} className = "navbar_icons"></img></a>
+                <a href="https://github.com/WiNGHacks/WiNGHacks-Website" target="_blank"><img src = {githubIcon} className = "navbar_icons"></img></a>
+                <a href="https://www.winghacks.com/" target="_blank"><img src = {outputIcon} className = "navbar_icons"></img></a>
               </div>
              <p>
                 WiNGHacks is the official hub for UF's 1st hackathon dedicated to women and nonbinary individuals. The site offers an engaging and interactive experience, featuring easily accessible information on FAQs, sponsorship opportunities, and the event's workshop schedule. A streamlined application portal was created to handle over 200 participants, ensuring a smooth and welcoming user experience for all attendees
@@ -81,7 +81,7 @@ function Projects() {
             <div className="project_details">
               <h2>Earthquake Data Analysis</h2>
               <div className = "project_icons">
-                <a href = "https://github.com/hugoliu-code/Group27-Final"><img src = {githubIcon} className = "navbar_icons"></img></a>
+                <a href = "https://github.com/hugoliu-code/Group27-Final " target="_blank"><img src = {githubIcon} className = "navbar_icons"></img></a>
               </div>
               <p>
               Transformed over 6000 rows of earthquake data into pickle files, using NumPy, Matplotlib, and Pandas to analyze the effects of magnitude and depth on locations and damage reports. Created an interactive web map with Folium to visualize earthquake locations and enhance geographic insights.
@@ -97,7 +97,7 @@ function Projects() {
             <div className="project_details">
               <h2>Animal Care</h2>
               <div className="project_icons">
-                <a href ="https://github.com/hugoliu-code/DesignathonWinners"><img src = {githubIcon} className = "navbar_icons"></img></a>
+                <a href ="https://github.com/hugoliu-code/DesignathonWinners" target="_blank"><img src = {githubIcon} className = "navbar_icons"></img></a>
                 <a href="https://www.youtube.com/watch?v=Vmt5MRfRNKI" target="_blank"><img src = {outputIcon} className = "navbar_icons"></img></a>
               </div>
              <p>
@@ -120,7 +120,7 @@ function Projects() {
                 <a href="https://www.youtube.com/@arossa" target="_blank"><img src = {outputIcon} className = "navbar_icons"></img></a>
               </div>
               <p>
-                110,000+ Views | 281 Subscribers 
+                110,000+ Views | 281 Subscribers | 
                 Topics: Coding, History of Women in STEM, Public Speaking, Data Analysis, Presentational Skills, Lifestyle 
               </p>
               <div className="project_skills">

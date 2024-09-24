@@ -16,7 +16,7 @@ function Intro() {
             </p>
             <div className = "intro_options">
               <button className = "hireMe"><a href = "#contact">Hire Me</a></button>
-              <button><a href = "">Download Resume</a></button>
+              <button><a href = "https://drive.google.com/file/d/1HsUYocl_Mrftx3UUBqOfDl90sW1DrFIk/view?usp=sharing" target = "_blank">Download Resume</a></button>
             </div>     
         </div>
         <img src = {headshot} className = "intro_img"></img>

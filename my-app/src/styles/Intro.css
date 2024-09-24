@@ -47,6 +47,10 @@
   
 }
 
+.resumeLink {
+  background-color: white;
+}
+
 .intro_content {
   display: flex;
   flex-direction: column;
