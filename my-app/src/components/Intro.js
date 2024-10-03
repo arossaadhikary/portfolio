@@ -12,7 +12,7 @@ function Intro() {
             <p className = "intro_description">
                 I'm a passionate developer from Tampa, FL. 
                 I enjoy creating web/IOS applications & am looking to expand into the cybersecurity sphere. 
-                I have experience with Javascript/React, C++,  Python.
+                I have experience with Javascript/React, C++, & Python.
             </p>
             <div className = "intro_options">
               <button className = "hireMe"><a href = "#contact">Hire Me</a></button>
