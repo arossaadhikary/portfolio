@@ -2,7 +2,7 @@ import '../styles/Intro.css';
 import React from 'react'
 
 import headshot from '../assets/ArossaAdhikary_Headshot_Website.png';
-
+import resume from '../assets/ArossaAdhikaryResume.pdf';
 
 function Intro() {
   return (
@@ -12,11 +12,13 @@ function Intro() {
             <p className = "intro_description">
                 I'm a passionate developer from Tampa, FL. 
                 I enjoy creating web/IOS applications & am looking to expand into the cybersecurity sphere. 
-                I have experience with Javascript/React, C++, & Python.
+                I have experience with Javascript, C++, & Python.
             </p>
             <div className = "intro_options">
               <button className = "hireMe"><a href = "#contact">Hire Me</a></button>
-              <button><a href = "https://drive.google.com/file/d/1gMOQ3l0QzUd47LAoe1fOEawXQ2oQ8Yat/view?usp=sharing" target = "_blank">Download Resume</a></button>
+
+
+              <button><a href = {resume} download>Download Resume</a></button>
             </div>     
         </div>
         <img src = {headshot} className = "intro_img"></img>

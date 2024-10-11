@@ -11,6 +11,7 @@ import PageTurnersPreview from '../assets/Previews/PageTurnersPreview.png';
 import EWBPreview from '../assets/Previews/EWBPreview.png';
 import EarthquakePreview from '../assets/Previews/EarthquakePreview.png';
 import YoutubePreview from '../assets/Previews/Youtube.png';
+import ClarifinaPreview from '../assets/Previews/ClarifinaPreview.png';
 
 function Projects() {
   return (
@@ -19,6 +20,28 @@ function Projects() {
 
       {/* projects */}
       <div className="project_list">
+
+        <div className="project_item">
+            <img src={ClarifinaPreview} className="project_img" alt="EWB Website" />
+            <div className="project_details">
+              <h2>Engineering Without Borders Website</h2>
+              <div className = "project_icons">
+                <a href = "https://github.com/aarnavgautam/clarifin-ai" target="_blank"><img src = {githubIcon} className = "navbar_icons"></img></a>
+                <a href = "https://devpost.com/software/clarifina" target="_blank"><img src = {outputIcon} className = "navbar_icons"></img></a>
+              </div>
+                <p>
+                Clarifina revolutionizes financial literacy by offering personalized, expert financial advice tailored to each user’s unique background and needs. With intuitive PDF uploads, it highlights key sections, simplifies complex terms, and delivers AI-powered recommendations based on individual profiles. Empowering users to make informed decisions, the platform provides clear, actionable insights that drive smarter financial outcomes and lasting success.
+                </p>
+              <div className="project_skills">
+                <button>Typescript</button>
+                <button>Firebase</button>
+                <button>Firestore</button>
+                <button>Express.js</button>
+                <button>AWS</button>
+                <button>Textract</button>
+              </div>
+            </div>
+        </div>
 
         <div className="project_item">
             <img src={EWBPreview} className="project_img" alt="EWB Website" />

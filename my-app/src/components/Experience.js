@@ -11,8 +11,9 @@ function Experience() {
         company: "UF Department of Occupational Therapy",
         period: "Aug 2024 - Present",
         details: [
-          "Integrating data from Qualisys & Visual3D to develop Python script to automate biomechanical calculations for gait analysis with pandas/numpy/scripy improving data accuracy processing speed.",
-          "Conducted biomechanics data analysis using Visual3D & Theia, leveraging AI-based markerless motion capture to evaluate walker-assisted movement."
+          "Integrated data from Qualisys & Visual3D to develop Python script to automate biomechanical calculations for gait analysis with pandas/numpy/scripy improving data accuracy processing speed by 80%.",
+          "Performed data analysis using Visual3D & Theia by identifying gait cycles & adding markers identifying movement.",
+          "Leveraged an AI-based markerless motion capture system to collect data on walker biomechanics (ie: joint positioning)"
         ]
       },
       {
@@ -29,8 +30,9 @@ function Experience() {
         company: "UF Engineering Without Borders",
         period: "Apr 2024 - Present",
         details: [
-          "Led a team of 5+ in implementing responsive web design using React, based on custom Figma wireframes, & managed version control with Git.",
-          "Integrated Firebase user authentication to track & inform members of their application status in real-time."
+          "Led a 10-person team to successfully deploy a centralized streamlined communication between Peru & Nepal chapters, formalizing the merger of previously independent organizations.",
+          "Implemented responsive design principles using React & Figma, creating wireframes & developing a dynamic, user-friendly website to enhance accessibility across devices.",
+          "Built Firebase user authentication system, enabling secure access for members/alumni & prospective applicants to manage exclusive project updates & centralize the process for tracking application statuses."
         ]
       },
       {
@@ -75,6 +77,16 @@ function Experience() {
     ],
     Community: [
       {
+        title: "Mentor",
+        company: "UF EQuIPD x Duke Energy",
+        period: "Oct 2024 - Present",
+        details: [
+          "Mentored students in designing resilient smart grids for Florida, emphasizing AI-driven solutions to reduce power loss during natural disasters.",
+          "Guided collaborative efforts to reimagine power distribution networks through design thinking, fostering community-focused microgrid systems.",
+          "Provided instruction in data analysis and visualization using Microsoft Excel to model power grid efficiency & enhance decision-making."
+        ]
+      },
+      {
         title: "Undergraduate Lead",
         company: "Goldberg Gators Engineering Explorers",
         period: "Apr 2024 - Jul 2024",
@@ -85,7 +97,7 @@ function Experience() {
       },
       {
         title: "Undergraduate Intern",
-        company: "SECME",
+        company: "UF SECME",
         period: "Mar 2024 - Jun 2024",
         details: [
           "Spearheaded the development of an engaging chaperone packet, crafting informative & visually appealing content to streamline communication for participants.",
