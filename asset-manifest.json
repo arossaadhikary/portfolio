@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.1ac4b15c.css",
-    "main.js": "/portfolio/static/js/main.e1bcbab3.js",
+    "main.js": "/portfolio/static/js/main.d3224c0b.js",
     "static/js/453.3b20ddf1.chunk.js": "/portfolio/static/js/453.3b20ddf1.chunk.js",
     "static/media/EWBPreview.png": "/portfolio/static/media/EWBPreview.b5324f77bf7188675dc1.png",
     "static/media/ArossaAdhikary_Headshot_Website.png": "/portfolio/static/media/ArossaAdhikary_Headshot_Website.8f4a7af51a6bb3924f24.png",
@@ -10,15 +10,17 @@
     "static/media/AnimalCarePreview.png": "/portfolio/static/media/AnimalCarePreview.c2fbf422f5605aeecc39.png",
     "static/media/WiNGHacksPreview.png": "/portfolio/static/media/WiNGHacksPreview.5b6084ac8fffc2146d1f.png",
     "static/media/PageTurnersPreview.png": "/portfolio/static/media/PageTurnersPreview.aceb2820f99f854b623a.png",
+    "static/media/ClarifinaPreview.png": "/portfolio/static/media/ClarifinaPreview.d763ab6582e9fd0dd0b3.png",
+    "static/media/ArossaAdhikaryResume.pdf": "/portfolio/static/media/ArossaAdhikaryResume.ab3a50d8dd6a3687d3de.pdf",
     "static/media/preview.png": "/portfolio/static/media/preview.f3e1acc12eafc996dd83.png",
     "static/media/EarthquakePreview.png": "/portfolio/static/media/EarthquakePreview.e743847426abefe79b02.png",
     "index.html": "/portfolio/index.html",
     "main.1ac4b15c.css.map": "/portfolio/static/css/main.1ac4b15c.css.map",
-    "main.e1bcbab3.js.map": "/portfolio/static/js/main.e1bcbab3.js.map",
+    "main.d3224c0b.js.map": "/portfolio/static/js/main.d3224c0b.js.map",
     "453.3b20ddf1.chunk.js.map": "/portfolio/static/js/453.3b20ddf1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1ac4b15c.css",
-    "static/js/main.e1bcbab3.js"
+    "static/js/main.d3224c0b.js"
   ]
 }
