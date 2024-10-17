@@ -11,6 +11,7 @@
     display: flex;
     flex-direction: column;
     margin-left: 10%;
+    margin-top: 50px;
 }
 
 /* speel above chat */
@@ -82,7 +83,7 @@ textarea {
 
 @media (max-width: 768px) {
     .contact_container {
-        margin-top: 170px;
+        margin-top: 200px;
     }
 
     .contact_container_items {

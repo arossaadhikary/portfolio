@@ -24,7 +24,7 @@ function Projects() {
         <div className="project_item">
             <img src={ClarifinaPreview} className="project_img" alt="EWB Website" />
             <div className="project_details">
-              <h2>Engineering Without Borders Website</h2>
+              <h2>Clarifina</h2>
               <div className = "project_icons">
                 <a href = "https://github.com/aarnavgautam/clarifin-ai" target="_blank"><img src = {githubIcon} className = "navbar_icons"></img></a>
                 <a href = "https://devpost.com/software/clarifina" target="_blank"><img src = {outputIcon} className = "navbar_icons"></img></a>

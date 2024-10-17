@@ -9,7 +9,7 @@ function Footer() {
   return (
     <div className = "footer_container">
         <p>Arossa Adhikary </p>
-        <p className = "footer_update">Last Updated: October 6th, 2024</p>
+        <p className = "footer_update">Last Updated: October 17th, 2024</p>
 
         {/* icons */}
         <div className = "footer_icons_container">
