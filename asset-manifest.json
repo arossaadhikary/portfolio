@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1ac4b15c.css",
-    "main.js": "/portfolio/static/js/main.d3224c0b.js",
+    "main.css": "/portfolio/static/css/main.fb4ed721.css",
+    "main.js": "/portfolio/static/js/main.730e7ce9.js",
     "static/js/453.3b20ddf1.chunk.js": "/portfolio/static/js/453.3b20ddf1.chunk.js",
     "static/media/EWBPreview.png": "/portfolio/static/media/EWBPreview.b5324f77bf7188675dc1.png",
     "static/media/ArossaAdhikary_Headshot_Website.png": "/portfolio/static/media/ArossaAdhikary_Headshot_Website.8f4a7af51a6bb3924f24.png",
@@ -15,12 +15,12 @@
     "static/media/preview.png": "/portfolio/static/media/preview.f3e1acc12eafc996dd83.png",
     "static/media/EarthquakePreview.png": "/portfolio/static/media/EarthquakePreview.e743847426abefe79b02.png",
     "index.html": "/portfolio/index.html",
-    "main.1ac4b15c.css.map": "/portfolio/static/css/main.1ac4b15c.css.map",
-    "main.d3224c0b.js.map": "/portfolio/static/js/main.d3224c0b.js.map",
+    "main.fb4ed721.css.map": "/portfolio/static/css/main.fb4ed721.css.map",
+    "main.730e7ce9.js.map": "/portfolio/static/js/main.730e7ce9.js.map",
     "453.3b20ddf1.chunk.js.map": "/portfolio/static/js/453.3b20ddf1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ac4b15c.css",
-    "static/js/main.d3224c0b.js"
+    "static/css/main.fb4ed721.css",
+    "static/js/main.730e7ce9.js"
   ]
 }
