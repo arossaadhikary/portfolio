@@ -8,6 +8,7 @@ const About = () => {
             <hr className="mb-6 border-slate-700"></hr>
             {/* Grid Wrapper */}
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
+
                 {/* Image */}
                 <motion.div 
                     className="order-1 md:order-2 flex justify-center"

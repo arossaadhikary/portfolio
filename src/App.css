@@ -1,11 +1,17 @@
 * {
+  /* calc element's width & height // aka use easier width calc for every element */
+  box-sizing: border-box; 
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
   background-color: #0a192f;
 }
-
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-}
-

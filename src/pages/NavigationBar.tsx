@@ -9,7 +9,7 @@ const NavigationBar = () => {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <nav className="fixed flex justify-between items-center px-6 sm:px-8 py-4 text-white relative">
+    <nav className="absolute top-5 left-0 z-50 w-full flex justify-between items-center px-6 sm:px-8 py-4 text-white">
       {/* Logo/Handle */}
       <Link
         to="/"
@@ -57,7 +57,7 @@ const NavigationBar = () => {
         </li>
       </ul>
 
-      {/* Social Icons (desktop only) */}
+      {/* Social Icons */}
       <div className="hidden md:flex space-x-6">
         <a
           href="https://www.linkedin.com/in/arossaadhikary/"
@@ -92,7 +92,7 @@ const NavigationBar = () => {
         </a>
       </div>
 
-      {/* Hamburger / X button (mobile only) */}
+      {/* Mobile button */}
       <button
         className="md:hidden focus:outline-none z-50"
         onClick={() => setMenuOpen(!menuOpen)}
@@ -106,7 +106,7 @@ const NavigationBar = () => {
 
       {/* Mobile Menu */}
       {menuOpen && (
-        <div className="absolute top-0 left-0 w-full h-screen bg-slate-900 flex flex-col items-center justify-center space-y-8 text-2xl z-40">
+        <div className="fixed inset-0 bg-slate-900 flex flex-col items-center justify-center space-y-8 text-2xl z-40">
 
           <Link
             to="/about"
