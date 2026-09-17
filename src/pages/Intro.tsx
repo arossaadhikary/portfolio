@@ -4,6 +4,8 @@ import heroImage from "../assets/test.jpg"
 
 import About from "./About"
 
+// TO-DO: FIX MARGINS REMOVED FROM APP.CSS FOR REST OF PAGE
+
 const Intro = () => {
   return (
     <>
