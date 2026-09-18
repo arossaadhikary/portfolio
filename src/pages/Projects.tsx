@@ -16,9 +16,9 @@ const Projects = () => {
       className="bg-[#0a192f] text-white"
     >
       {/* container for continous margins */}
-      <div className="mx-auto max-w-6xl px-6 sm:px-8 py-4">
+      <div className="mx-auto max-w-6xl px-6 sm:px-8 py-4 mt-20">
 
-        <h2 className="mb-6 mt-20 text-4xl font-bold">
+        <h2 className="mb-6 text-4xl font-bold">
           CODING
         </h2>
 

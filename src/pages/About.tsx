@@ -8,7 +8,8 @@ const About = () => {
       id="about"
       className="bg-[#0a192f] text-white"
     >
-      <div className="mx-auto max-w-6xl px-6 sm:px-8 py-16">
+      <div className="mx-auto max-w-6xl px-6 sm:px-8 pt-16 pb-4">
+        {/*tailwind = pb or pt vs css = padding-bottom, padding-top */}
 
         <h2 className="mb-6 text-4xl font-bold">
           ABOUT
@@ -55,13 +56,14 @@ const About = () => {
 
           {/* TEXT */}
           <div className="order-2 md:order-1 text-left text-slate-300 leading-relaxed sm:text-lg md:text-lg">
-            <p className="mb-6 md:mb-10">
+            <p className="mb-6">
               I'm a 4th-year Computer Science student at
               the University of Florida (Go Gators🐊!) in the Honors Program.
               I'm also obtaining 3 certificates from the university:
               Artificial Intelligence Fundamentals & Applications,
               Engineering Project Management, &
               Engineering Innovation.
+              In addition, I’m CompTIA Security+ certified.
             </p>
 
             <p>
