@@ -1,3 +1,5 @@
+/* earlier error:  setting backgrnd color to global -> wrecking layout & visual layering */
+
 * {
   /* calc element's width & height // aka use easier width calc for every element */
   box-sizing: border-box; 
