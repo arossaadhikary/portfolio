@@ -53,12 +53,5 @@ export const projects =[
         gitHubUrl: "https://github.com/hugoliu-code/DesignathonWinners",
         projectUrl: "https://www.youtube.com/watch?v=Vmt5MRfRNKIe",
         skills: ["Unity", "C#", "Open AI", "GPT 3.5"]
-    },
-    {
-        title: "YouTube Channel",
-        image: P_YoutubeChannel,
-        description: "110,000+ Views | 281 Subscribers | Topics: Coding, History of Women in STEM, Public Speaking, Data Analysis, Presentational Skills, Lifestyle",
-        projectUrl: "https://www.youtube.com/@arossa",
-        skills: ["Adobe Photoshop", "Adobe Premiere Pro", "Procreate", "Adobe After Effects"]
     }
 ]
