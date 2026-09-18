@@ -4,7 +4,6 @@ import P_PageTurners from "../assets/preview-pageturners.png"
 import P_WiNGHacks from "../assets/preview-winghacks.png"
 import P_Earthquake from "../assets/preview_earthquake.png"
 import P_AnimalCare from "../assets/preview_animalcare.png"
-import P_YoutubeChannel from "../assets/preview_youtubechannel.png"
 
 export const projects =[
     {
