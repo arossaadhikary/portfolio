@@ -11,6 +11,8 @@ const NavigationBar = () => {
   // link = react router navigation (differ page nav through sep route)
   // href normal browser navigation (use for scroll same page)
 
+  // to-do: have items highlighted on page 
+  
   return (
     <nav className="absolute top-5 left-0 z-50 w-full flex justify-between items-center px-6 sm:px-8 py-4 text-white">
       {/* Logo/Handle */}
