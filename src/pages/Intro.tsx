@@ -1,6 +1,6 @@
 import { motion } from "framer-motion"
 import Resume from "../../public/ArossaAdhikaryResume.pdf"
-import heroImage from "../assets/hero_background.png"
+import heroImage from "../assets/hero_background.webp"
 
 import About from "./About"
 import { Link } from "react-router-dom"
