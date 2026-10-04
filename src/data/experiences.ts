@@ -91,9 +91,22 @@ export const experiences = {
     ],
     Professional: [
     {
+    position: "Growth Product Management Intern",
+    company: "Disney Entertainment & ESPN Product & Technology",
+    date: "May 2026 - Aug 2026",
+    bullets: [
+        "Analyzed 6,000+ customer sign-up utterances to identify acquisition friction and define requirements for an AI-powered acquisition chatbot, aligning product, design, engineering, and legal on implementation planning.",
+        "Modeled a 1.5% U.S. conversion lift for the AI acquisition experience, equivalent to approximately 22K incremental subscribers and $2.69M in annualized operating income.",
+        "Drove product discovery for AI-powered experimentation tooling, conducting internal user research, identifying workflow pain points, and partnering with engineers to prototype and scope MCP-enabled platform recommendations.",
+        "Evaluated growth and promotional experiments across international markets, analyzing conversion, incremental value, and cannibalization tradeoffs to understand when offers generated sustainable subscriber growth.",
+        "Led planning and execution for the first Disney intern hackathon, securing $500+ in funding and coordinating the event from concept through launch.",
+        "Won 1st Place / Judges’ Choice for Daily Deck, an ESPN personalization concept; designed and built the MVP, translating the idea into product requirements, interactive flows, and an experimentation roadmap."
+    ]
+    },
+    {
         position: "Wireless & Optical Networking Intern",
         company: "Walt Disney World, Telecom Operations",
-        date: "May 2025 - Present",
+        date: "May 2025 - Dec 2025",
         bullets: [
             "Automating IoT device configuration & deployment using Disney’s automation platform, TRON, & ArcGIS, enabling scalable rollout of sensors & improving internal equipment tracking (e.g. pest control, wheelchairs).",
             "Spearheading migration of 1000+ Smartsheet assets to Airtable via Python scripting & Smartsheet/Airtable API, streamlining workflows for Telecom & eliminating costly effort.",
